@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosclient = axios.create({
-  baseURL: 'http://localhost:3000/',
+  baseURL: 'https://carelens-backend.vercel.app',
   withCredentials:true,
   headers: {'content-type': 'application/json'}
 });
